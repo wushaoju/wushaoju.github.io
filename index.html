@@ -1,1 +1,155 @@
-"Hello World" 
+<DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./js/util.js"></script>
+</head>
+<body>
+  <div id="container" style="width: 80%;height: 100%;margin-left: auto;margin-right: auto;">
+	<!-- logo div starts -->
+	<div id="logo">
+		<div style="display: inline-block;">
+			<img src="./static/icon/logo_V1.gif" width="200" height="100">
+		</div>
+		
+		<div style="display: inline-block; float: right;">
+			<span><img src="./static/icon/UF.gif" width="150" height="40"></span>
+			<span><img src="./static/icon/UF_Seal.gif" width="80" height="80"></span>
+		</div>
+ 	</div>
+ 	<!-- logo ends -->
+
+ 	<p style="color: #cc0000; font-weight: bold;font-size: 18px">Objective: Seeking PhD position in Computer Vison, Deep Learning or BioMedical Image Analysis area</p>
+ 	<!-- canvas starts -->
+ 	<div id="canvas" style="text-align: center; width: 100%; display: inline-block;">
+	 	<div id="personalInfo" style="display: inline-block; text-align: left;float: left; width: 50%">
+	 		<div id="Master">
+	 				<span style="font-size: 18px;font-weight: bold;color: #000066;"> Eduacation:</span>
+	 				<br>
+ 					<span>University of Florida</span>
+ 					<span style="float: right;">Gainesville, FL, USA</span>
+ 					<ul style="margin-top:0px">
+	 					<li>Master of Science in Computer Science, Graduate School of Liberal Arts and Science</li>
+	 					<li>GPA: 3.94/4.0</li>
+	 				</ul>
+			</div>
+			<div id="Bachelor">
+				<span>ZhengZhou University</span>
+ 				<span style="float: right;">ZhengZhou, China</span>
+ 				<ul style="margin-top:0px"	>
+ 				<li>Bachelor of Engineering in Communication Engineering</li>
+ 				<li>GPA: 3.50/4.0</li>
+ 				</ul>
+			</div>
+	 	</div>
+
+	 	<div id="researchInterest" style="display: inline-block;text-align: left;">
+	 		<span style="font-size: 18px;font-weight: bold;color: #000066;">Research Interest:
+	 		</span>
+	 		<ul>
+		 		<li>Computer Vision</li>
+		 		<li>Deep Learning</li>
+		 		<li>Biomedical Image Analysis</li>
+	 		</ul>
+	 		<span style="font-size: 18px;font-weight: bold;color: #000066;">Contact: </span>
+	 		<ul>
+	 			<li><a href="./static/document/CV_HE_ZHAO.pdf" target="_blank">CV</a></li>
+	 			<li>Email: zhaohe19910930@ufl.edu</li>
+	 			<li>Phone: (+1)352-328-1005 </li>
+	 			<li>Address: 3700 SW 27th, Gainesville</li>
+	 		</ul>
+	 	</div>
+	</div>
+
+
+	<!-- canvas ends -->
+	<hr>
+
+	<div id="content" style="width: 100%; text-align: center;">
+	<span style="float: left;font-size: 18px;font-weight: bold;color: #000066;"> Deep Convolutional Nerual Network and Software:</span><br><br><br>
+		<table style="width: 100%">
+			<tbody>
+				<tr>
+					<!-- td for img demo -->
+					<td style="width: 72%;">
+						<img src="./static/softwareDemo.gif" style="width:350px; height:200px;float: left;">
+						<img src="./static/segmentation.gif" style="width:350px; height:200px;float: left;">
+						<img src="./static/DeepNetworkArchitect.png" style="width: 763px; height: 350px">
+					</td>
+
+					<!-- td for explaination -->
+					<td>
+						<p> Based on medical image data provided by BICI2 lab, implemented fully connected network, holistically-nested edge detection methods and got a better detection and segmentation effect compared with random forest method. Now working on residual neural network to achieve better result and keep digging on deep learning.
+						</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<br><br>
+		<hr>
+
+		<span style="float: left;font-size: 18px;font-weight: bold;color: #000066;"> Random Forest Muscle Cell Segmentation:</span><br><br><br>
+		<table style="width: 100%">
+			<tbody>
+				<tr>
+					<!-- td for img demo -->
+					<td style="width: 70%;">
+						<img src="./static/random_forest.gif" width="250px" height="250px">
+					</td>
+
+					<!-- td for explaination -->
+					<td>
+						<p> Developed a cpp software implementation of an image segmentation algorithm based on Random Forest Machine Learning algorithm, for Muscle Cell Image gathered from University of Florida Shands Hospital. Combined with Histogram Segmentation algorithm for feature extraction, Watershed  and self-defined Hierarchical segmentation framework for segmentation, this cpp dll-call software works quite well for our muscle cell data. Video demo can be seen soon online.</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<br><br>
+		<hr>
+
+		<span style="float: left;font-size: 18px;font-weight: bold;color: #000066;"> LBP face recognition and DMP object tracking:</span><br><br><br>
+		<table style="width: 100%">
+			<tbody>
+				<tr>
+					<!-- td for img demo -->
+					<td style="width: 70%;">
+						<img src="./static/462.png" width="400px" height="350px">
+					</td>
+
+					<!-- td for explaination -->
+					<td>
+						<p> Built a Local Binary Patterns based software for face recogition, together with Deformable Part Model for object tracking. Implementation these two effective algorithms for contruction site videos with the aim to prevent from stranger invading and  fire-fighting equipments stealing. Now we are heading towards implementing MOT on large-scale construction site video to monitor multiple objects. Video demo can be seen soon online.</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<br><br>
+		<hr>
+
+		<!-- example start -->
+		<span style="float: left;font-size: 18px;font-weight: bold;color: #000066;"> Python Flask Online Cell Contour Annotation:</span><br><br><br>
+		<table style="width: 100%">
+			<tbody>
+				<tr>
+					<!-- td for img demo -->
+					<td style="width: 70%;">
+						<img src="./static/onlineAnnotationDemo.gif" width="450px" height="350px">
+					</td>
+
+					<!-- td for explaination -->
+					<td>
+						<p> Using python FLASK framework as back-end to build up a website, which shows our recent accomplishments on Cell-Image Segmentation Research. With Flask's strong server-client interaction functionality, visitors would be able to modify the contour of cell online and re-submit it back to server. To make it more interactive, we use deep zoom package, paper.js and openseadragon as well.</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<!-- ends -->
+
+	</div>
+
+
+   </div>
+</body>
+</html>
