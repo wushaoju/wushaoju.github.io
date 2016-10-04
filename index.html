@@ -39,10 +39,11 @@
 				<span>ZhengZhou University</span>
  				<span style="float: right;">ZhengZhou, China</span>
  				<ul style="margin-top:0px"	>
- 				<li>Bachelor of Engineering in Communication Engineering</li>
+ 				<li>Bachelor of Engineering in Electrical and Computer Engineering</li>
  				<li>GPA: 3.50/4.0</li>
  				</ul>
 			</div>
+			<span>Under supervision of Prof. <a href="https://www.bme.ufl.edu/labs/yang/" target="_blank">Yang Lin</a> (faculty of Biomedical Engineering Department, University of Florida)</span>
 	 	</div>
 
 	 	<div id="researchInterest" style="display: inline-block;text-align: left;">
@@ -68,20 +69,20 @@
 	<hr>
 
 	<div id="content" style="width: 100%; text-align: center;">
-	<span style="float: left;font-size: 18px;font-weight: bold;color: #000066;"> Deep Convolutional Nerual Network and Software:</span><br><br><br>
+	<span style="float: left;font-size: 18px;font-weight: bold;color: #000066;"> Deep Convolutional Nerual Network and Segmentation:</span><br><br><br>
 		<table style="width: 100%">
 			<tbody>
 				<tr>
 					<!-- td for img demo -->
 					<td style="width: 72%;">
-						<img src="./static/softwareDemo.gif" style="width:350px; height:200px;float: left;">
 						<img src="./static/segmentation.gif" style="width:350px; height:200px;float: left;">
-						<img src="./static/DeepNetworkArchitect.png" style="width: 763px; height: 350px">
+						<img src="./static/deepLearningWatershed.gif" style="width:350px; height:200px;float: left;">
+						<img src="./static/DeepNetworkArchitect.png" style="width: 710px; height: 310px">
 					</td>
 
 					<!-- td for explaination -->
 					<td>
-						<p> Based on medical image data provided by BICI2 lab, implemented fully connected network, holistically-nested edge detection methods and got a better detection and segmentation effect compared with random forest method. Now working on residual neural network to achieve better result and keep digging on deep learning.
+						<p> Based on medical image data provided by BICI2 lab, implemented fully connected network edge detection methods with watershad as post-proecess and got a better detection and segmentation effect compared with random forest method. Now working on residual neural network to achieve better result and keep digging on deep learning.
 						</p>
 					</td>
 				</tr>
@@ -95,13 +96,13 @@
 			<tbody>
 				<tr>
 					<!-- td for img demo -->
-					<td style="width: 70%;">
-						<img src="./static/random_forest.gif" width="250px" height="250px">
+					<td style="width: 50%;">
+						<img src="./static/random_forest.gif" width="350px" height="250px">
 					</td>
 
 					<!-- td for explaination -->
 					<td>
-						<p> Developed a cpp software implementation of an image segmentation algorithm based on Random Forest Machine Learning algorithm, for Muscle Cell Image gathered from University of Florida Shands Hospital. Combined with Histogram Segmentation algorithm for feature extraction, Watershed  and self-defined Hierarchical segmentation framework for segmentation, this cpp dll-call software works quite well for our muscle cell data. Video demo can be seen soon online.</p>
+						<p> Developed a cpp software implementation of an image segmentation algorithm based on Random Forest Machine Learning algorithm, for Muscle Cell Image gathered from University of Florida Shands Hospital. Combined with HOG(Histogram of oriented gradients) for feature extraction, UCM Segmentation algorithm, Watershed and self-defined Hierarchical segmentation framework for segmentation, this cpp dll-call software works quite well for our muscle cell data and totally get rid of matlab dependency.</p>
 					</td>
 				</tr>
 			</tbody>
@@ -109,18 +110,18 @@
 		<br><br>
 		<hr>
 
-		<span style="float: left;font-size: 18px;font-weight: bold;color: #000066;"> LBP face recognition and DMP object tracking:</span><br><br><br>
+		<span style="float: left;font-size: 18px;font-weight: bold;color: #000066;"> LBP face recognition and DMP object tracking(coming soon):</span><br><br><br>
 		<table style="width: 100%">
 			<tbody>
 				<tr>
 					<!-- td for img demo -->
-					<td style="width: 70%;">
+					<td style="width: 50%;">
 						<img src="./static/462.png" width="400px" height="350px">
 					</td>
 
 					<!-- td for explaination -->
 					<td>
-						<p> Built a Local Binary Patterns based software for face recogition, together with Deformable Part Model for object tracking. Implementation these two effective algorithms for contruction site videos with the aim to prevent from stranger invading and  fire-fighting equipments stealing. Now we are heading towards implementing MOT on large-scale construction site video to monitor multiple objects. Video demo can be seen soon online.</p>
+						<p> Built a Local Binary Patterns based software for face recogition, together with Deformable Part Model for object tracking. Implementation these two effective algorithms for contruction site videos with the aim to prevent from stranger invading and  fire-fighting equipments stealing. Now we are heading towards implementing MOT on large-scale construction site video to monitor multiple objects. Video demo will come soon online.</p>
 					</td>
 				</tr>
 			</tbody>
@@ -128,24 +129,29 @@
 		<br><br>
 		<hr>
 
-		<!-- example start -->
 		<span style="float: left;font-size: 18px;font-weight: bold;color: #000066;"> Python Flask Online Cell Contour Annotation:</span><br><br><br>
 		<table style="width: 100%">
 			<tbody>
 				<tr>
 					<!-- td for img demo -->
-					<td style="width: 70%;">
+					<td style="width: 50%;">
 						<img src="./static/onlineAnnotationDemo.gif" width="450px" height="350px">
 					</td>
 
 					<!-- td for explaination -->
 					<td>
-						<p> Using python FLASK framework as back-end to build up a website, which shows our recent accomplishments on Cell-Image Segmentation Research. With Flask's strong server-client interaction functionality, visitors would be able to modify the contour of cell online and re-submit it back to server. To make it more interactive, we use deep zoom package, paper.js and openseadragon as well.</p>
+						<p> Using python FLASK framework as back-end to build up a website, which shows our recent accomplishments on Cell-Image Segmentation Research. And allows everyone to modify the contour as groundtruth for further training in deep learning. With Flask's strong server-client interaction functionality, visitors would be able to modify the contour of cell online and re-submit it back to server. To make it more interactive, we use deep zoom package, paper.js and openseadragon as well.</p>
 					</td>
 				</tr>
 			</tbody>
 		</table>
-		<!-- ends -->
+		<br><br>
+		<hr>
+
+		<div id="ending">
+			<span>Thanks for the support of Prof Yang Lin and all members of BICI2 lab</span>
+			<br><br><br><br>
+		</div>
 
 	</div>
 
